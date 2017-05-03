@@ -1,0 +1,21 @@
+public class Stack{
+	int[] array = new int[5];
+
+	void insert(int item){
+		System.out.println(item);
+			
+	}
+
+	void front(){
+		System.out.println((String)array[array.length]);
+	}
+
+	void remove(){
+		
+	}
+
+	void clear(){
+		int[] array = new int[5];
+		System.out.println("true");
+	}
+}
